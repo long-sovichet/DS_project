@@ -3,7 +3,7 @@ import java.rmi.RemoteException;
 import java.util.*;
 
 public class WordScrambleGameServer extends UnicastRemoteObject implements WordScrambleGame {
-    private List<String> wordList = Arrays.asList("java", "rmi", "algorithm");
+    private List<String> wordList = Arrays.asList("java", "rmi", "algorithm", "server", "client");
     private Map<String, Integer> leaderboard = new HashMap<>();
     private String currentWord; // Store the original word
 
